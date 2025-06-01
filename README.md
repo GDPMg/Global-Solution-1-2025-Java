@@ -22,7 +22,7 @@ Projeto desenvolvido para a disciplina de **Programação Orientada a Serviços*
 - Alertar usuários afetados;
 - Apoiar futuras decisões de infraestrutura urbana.
 
-💡 Este projeto é uma continuação prática dessa solução, integrando **serviços REST** e **visualização em tempo real**, reforçando a importância da Arquitetura Orientada a Serviços no contexto urbano.
+💡 O campo enderecoFormatado aparece apenas no endpoint /com-endereco para evitar sobrecarga da API externa.
 
 ---
 
@@ -49,24 +49,19 @@ Projeto desenvolvido para a disciplina de **Programação Orientada a Serviços*
    - Maven
    - Spring Boot
 
-### Acessar no navegador
-
-- API: [http://localhost:8080/energia](http://localhost:8080/energia)  
-- Dashboard: [http://localhost:8080/dashboard](http://localhost:8080/dashboard)
-
 ---
 
 ## 🔗 Endpoints REST para testes
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
-| GET | `/energia/eventos` | Lista todos os eventos |
-| GET | `/energia/eventos/tipo/queda` | Lista eventos do tipo "queda" |
-| GET | `/energia/eventos/poste/Poste 1` | Lista eventos do Poste 1 |
-| GET | `/energia/eventos/contagem/tipo` | Retorna a contagem por tipo |
-| GET | `/energia/eventos/contagem/poste` | Retorna a contagem por poste |
-| GET | `/energia/eventos/ultimo` | Retorna o evento mais recente |
-| GET | `/energia/eventos/com-endereco` | Lista eventos com endereço formatado (via geocodificação reversa) |
+| GET | `http://localhost:8080/energia/energia/eventos` | Lista todos os eventos |
+| GET | `http://localhost:8080/energia/energia/eventos/tipo/queda` | Lista eventos do tipo "queda" |
+| GET | `http://localhost:8080/energia/energia/eventos/poste/Poste 1` | Lista eventos do Poste 1 |
+| GET | `http://localhost:8080/energia/energia/eventos/contagem/tipo` | Retorna a contagem por tipo |
+| GET | `http://localhost:8080/energia/energia/eventos/contagem/poste` | Retorna a contagem por poste |
+| GET | `http://localhost:8080/energia/energia/eventos/ultimo` | Retorna o evento mais recente |
+| GET | `http://localhost:8080/energia/energia/eventos/com-endereco` | Lista eventos com endereço formatado (via geocodificação reversa) |
 
 ---
 
