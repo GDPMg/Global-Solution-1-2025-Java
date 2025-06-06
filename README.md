@@ -57,7 +57,8 @@ Projeto desenvolvido para a disciplina de **Programação Orientada a Serviços*
 |--------|------|-----------|
 | GET | `http://localhost:8080/energia/eventos` | Lista todos os eventos |
 | GET | `http://localhost:8080/energia/eventos/tipo/queda` | Lista eventos do tipo "queda" |
-| GET | `http://localhost:8080/energia/eventos/poste/Poste 1` | Lista eventos do Poste 1 |
+| GET | `http://localhost:8080/energia/eventos/tipo/retorno` | Lista eventos do tipo "retorno" |
+| GET | `http://localhost:8080/energia/eventos/poste/Poste 2` | Lista eventos do Poste 2 |
 | GET | `http://localhost:8080/energia/eventos/contagem/tipo` | Retorna a contagem por tipo |
 | GET | `http://localhost:8080/energia/eventos/contagem/poste` | Retorna a contagem por poste |
 | GET | `http://localhost:8080/energia/eventos/ultimo` | Retorna o evento mais recente |
