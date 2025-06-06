@@ -55,13 +55,13 @@ Projeto desenvolvido para a disciplina de **Programação Orientada a Serviços*
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
-| GET | `http://localhost:8080/energia/energia/eventos` | Lista todos os eventos |
-| GET | `http://localhost:8080/energia/energia/eventos/tipo/queda` | Lista eventos do tipo "queda" |
-| GET | `http://localhost:8080/energia/energia/eventos/poste/Poste 1` | Lista eventos do Poste 1 |
-| GET | `http://localhost:8080/energia/energia/eventos/contagem/tipo` | Retorna a contagem por tipo |
-| GET | `http://localhost:8080/energia/energia/eventos/contagem/poste` | Retorna a contagem por poste |
-| GET | `http://localhost:8080/energia/energia/eventos/ultimo` | Retorna o evento mais recente |
-| GET | `http://localhost:8080/energia/energia/eventos/com-endereco` | Lista eventos com endereço formatado (via geocodificação reversa) |
+| GET | `http://localhost:8080/energia/eventos` | Lista todos os eventos |
+| GET | `http://localhost:8080/energia/eventos/tipo/queda` | Lista eventos do tipo "queda" |
+| GET | `http://localhost:8080/energia/eventos/poste/Poste 1` | Lista eventos do Poste 1 |
+| GET | `http://localhost:8080/energia/eventos/contagem/tipo` | Retorna a contagem por tipo |
+| GET | `http://localhost:8080/energia/eventos/contagem/poste` | Retorna a contagem por poste |
+| GET | `http://localhost:8080/energia/eventos/ultimo` | Retorna o evento mais recente |
+| GET | `http://localhost:8080/energia/eventos/com-endereco` | Lista eventos com endereço formatado (via geocodificação reversa) |
 
 ---
 
